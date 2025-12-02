@@ -45,7 +45,7 @@ const paper2 = {
 
 const paper1 = {
   title:
-    "Simple eigenvalues and non-vanishing eigenvectors of the Anderson model",
+    "Simple Eigenvalues and Non-vanishing Eigenvectors of the Anderson model",
   arxiv: "arXiv:2512.00278",
   link: "http://arxiv.org/abs/2512.00278",
   description: "to be completed later",
