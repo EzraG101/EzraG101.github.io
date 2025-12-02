@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teaching | Ezra Guerrero Alvarez</title>
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Klein_bottle.svg/480px-Klein_bottle.svg.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Klein_bottle.svg/480px-Klein_bottle.svg.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="CSS/template.css" />
+    <link rel="stylesheet" href="CSS/teaching.css" />
+    <meta name="author" content="Ezra Guerrero" />
+    <meta
+      name="description"
+      content="Ezra Guerrero Alvarez is a fourth-year undergraduate student 
+      in Mathematics and Physics at MIT. This is his personal website and portfolio."
+    />
+    <meta
+      name="keywords"
+      content="Mathematics, Geometric Topology, Topology, Physics, Geometry, MIT, portfolio"
+    />
+    <script type="text/javascript" src="JS/teaching.js"></script>
+    <script id="onload">
+      document.addEventListener(
+        "DOMContentLoaded",
+        (loadContent = () => {
+          teaching_exp.forEach((exp) => {
+            document.getElementById(
+              "teachingbox"
+            ).innerHTML += `<div class="teachingboxelem">
+            <div class="teachingboxelemtitle">${exp.position}</div>
+            <div class="teachingboxelemadate">${exp.dates}</div>
+            <div class="teachingboxelemplace">${exp.org}</div>
+            <div class="teachingboxelemlocation">${exp.location}</div>
+            <div class="teachingboxelemdescription">${exp.description}</div>
+          </div>`;
+          });
+        })
+      );
+    </script>
+  </head>
+  <body>
+    <div id="webpage">
+      <div id="navbar">
+        <div id="navbartitle">Ezra Guerrero Alvarez</div>
+        <div id="navbarmenu">
+          <a
+            class="navbarmenuitem"
+            style="border-top-left-radius: 1vh; border-bottom-left-radius: 1vh"
+            href="index"
+          >
+            Home
+          </a>
+          <a class="navbarmenuitem" href="research">Research</a>
+          <a class="navbarmenuitem" href="teaching">Teaching</a>
+          <a class="navbarmenuitem" href="resources">Resources</a>
+          <a
+            class="navbarmenuitem"
+            style="
+              border-top-right-radius: 1vh;
+              border-bottom-right-radius: 1vh;
+            "
+            href="assets/cv.pdf"
+          >
+            CV
+          </a>
+        </div>
+      </div>
+      <div id="content">
+        <div id="teachingbox">
+          <div id="teachingboxtitle">Teaching Experience</div>
+          <!-- <div class="teachingboxelem">
+            <div class="teachingboxelemtitle">Position</div>
+            <div class="teachingboxelemadate">March 12, 2020</div>
+            <div class="teachingboxelemplace">MIT</div>
+            <div class="teachingboxelemlocation">Cambridge, MA</div>
+            <div class="teachingboxelemdescription">Stuff</div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

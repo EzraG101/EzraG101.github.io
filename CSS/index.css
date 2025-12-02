@@ -1,0 +1,57 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap");
+
+@font-face {
+  font-family: mainfont;
+  src: url("Autography.otf");
+}
+
+/* CSS Variables */
+:root {
+  /* Color Palette */
+  --orchid: #a28ca1;
+  --midnight: #424e4d;
+  --acorn: #c1a57f;
+  --sand: #e5d5ce;
+  --snow: #e1e6e9;
+  --cream: #f8f4ee;
+  /* Scaling Variables */
+  --pagewidth: min(148vh, 90vw);
+  /* Image Variables */
+  --headshot: url();
+}
+
+/* Page Content */
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#picturebox {
+  width: calc(12 / 37 * var(--pagewidth));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+
+#pictureheadshot {
+  width: calc(8 / 37 * var(--pagewidth));
+  aspect-ratio: 1;
+  background-image: var(--headshot);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 0.5vh solid var(--midnight);
+  border-radius: 2vh;
+}
+
+#textbox {
+  width: calc(25 / 37 * var(--pagewidth));
+  line-height: 4vh;
+  padding-top: 5vh;
+  font-family: "Radio Canada", sans-serif;
+  color: #424e4d;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Research | Ezra Guerrero Alvarez</title>
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Klein_bottle.svg/480px-Klein_bottle.svg.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Klein_bottle.svg/480px-Klein_bottle.svg.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="CSS/template.css" />
+    <link rel="stylesheet" href="CSS/research.css" />
+    <meta name="author" content="Ezra Guerrero" />
+    <meta
+      name="description"
+      content="Ezra Guerrero Alvarez is a fourth-year undergraduate student 
+      in Mathematics and Physics at MIT. This is his personal website and portfolio."
+    />
+    <meta
+      name="keywords"
+      content="Mathematics, Geometric Topology, Topology, Physics, Geometry, MIT, portfolio"
+    />
+    <script type="text/javascript" src="JS/research.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script id="onload">
+      document.addEventListener(
+        "DOMContentLoaded",
+        (loadContent = () => {
+          // Load Research Papers
+          research_papers.forEach((paper) => {
+            document.getElementById(
+              "researchbox"
+            ).innerHTML += `<div class="researchboxelem">
+            <div class="researchboxelemtitle">${paper.title}</div>
+            <a class="researchboxelemarxiv" href="${paper.link}" target="_blank">${paper.arxiv}</a>
+            <div class="researchboxelemdescription">
+            ${paper.description}
+            </div>
+          </div>`;
+          });
+          // Load Expository Papers
+          exposit_papers.forEach((paper) => {
+            if (paper.link) {
+              document.getElementById(
+                "expositorybox"
+              ).innerHTML += `<div class="expositoryboxelem">
+            <div class="expositoryboxelemtitle">${paper.title}</div>
+            <a class="expositoryboxelemlink" href="${paper.link}" target="_blank">${paper.arxiv}</a>
+            <div class="expositoryboxelemdescription">
+            ${paper.description}
+            </div>
+          </div>`;
+            } else {
+              document.getElementById(
+                "expositorybox"
+              ).innerHTML += `<div class="expositoryboxelem">
+            <div class="expositoryboxelemtitle">${paper.title}</div>
+            <div class="expositoryboxelemlinkbroken">${paper.arxiv}</div>
+            <div class="expositoryboxelemdescription">
+            ${paper.description}
+            </div>
+          </div>`;
+            }
+          });
+          MathJax.typesetPromise();
+        })
+      );
+    </script>
+  </head>
+  <body>
+    <div id="webpage">
+      <div id="navbar">
+        <div id="navbartitle">Ezra Guerrero Alvarez</div>
+        <div id="navbarmenu">
+          <a
+            class="navbarmenuitem"
+            style="border-top-left-radius: 1vh; border-bottom-left-radius: 1vh"
+            href="index"
+          >
+            Home
+          </a>
+          <a class="navbarmenuitem" href="research">Research</a>
+          <a class="navbarmenuitem" href="teaching">Teaching</a>
+          <a class="navbarmenuitem" href="resources">Resources</a>
+          <a
+            class="navbarmenuitem"
+            style="
+              border-top-right-radius: 1vh;
+              border-bottom-right-radius: 1vh;
+            "
+            href="assets/cv.pdf"
+          >
+            CV
+          </a>
+        </div>
+      </div>
+      <div id="content">
+        <div id="researchbox">
+          <div id="researchboxtitle">Research Papers</div>
+        </div>
+        <div id="expositorybox">
+          <div id="expositoryboxtitle">Expository Papers</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

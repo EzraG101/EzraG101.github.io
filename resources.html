@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resources | Ezra Guerrero Alvarez</title>
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Klein_bottle.svg/480px-Klein_bottle.svg.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Klein_bottle.svg/480px-Klein_bottle.svg.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="CSS/template.css" />
+    <link rel="stylesheet" href="CSS/resources.css" />
+    <meta name="author" content="Ezra Guerrero" />
+    <meta
+      name="description"
+      content="Ezra Guerrero Alvarez is a fourth-year undergraduate student 
+      in Mathematics and Physics at MIT. This is his personal website and portfolio."
+    />
+    <meta
+      name="keywords"
+      content="Mathematics, Geometric Topology, Topology, Physics, Geometry, MIT, portfolio"
+    />
+    <script type="text/javascript" src="JS/resources.js"></script>
+    <script id="onload">
+      document.addEventListener(
+        "DOMContentLoaded",
+        (loadContent = () => {
+          // Load English Resources
+          english_res.forEach((res) => {
+            if (res.description) {
+              document.getElementById(
+                "englishbox"
+              ).innerHTML += `<div class="resourcesboxelem">
+            <a class="resourcesboxelemtitle" href="${res.link}">${res.name}</a>
+            <div class="resourcesboxelemdescription">${res.description}</div>
+          </div>`;
+            } else {
+              document.getElementById(
+                "englishbox"
+              ).innerHTML += `<div class="resourcesboxelem">
+            <a class="resourcesboxelemtitle" href="${res.link}">${res.name}</a>
+          </div>`;
+            }
+          });
+          // Load Spanish Resources
+          spanish_res.forEach((res) => {
+            if (res.description) {
+              document.getElementById(
+                "spanishbox"
+              ).innerHTML += `<div class="resourcesboxelem">
+            <a class="resourcesboxelemtitle" href="${res.link}">${res.name}</a>
+            <div class="resourcesboxelemdescription">${res.description}</div>
+          </div>`;
+            } else {
+              document.getElementById(
+                "spanishbox"
+              ).innerHTML += `<div class="resourcesboxelem">
+            <a class="resourcesboxelemtitle" href="${res.link}">${res.name}</a>
+          </div>`;
+            }
+          });
+        })
+      );
+    </script>
+  </head>
+  <body>
+    <div id="webpage">
+      <div id="navbar">
+        <div id="navbartitle">Ezra Guerrero Alvarez</div>
+        <div id="navbarmenu">
+          <a
+            class="navbarmenuitem"
+            style="border-top-left-radius: 1vh; border-bottom-left-radius: 1vh"
+            href="index"
+          >
+            Home
+          </a>
+          <a class="navbarmenuitem" href="research">Research</a>
+          <a class="navbarmenuitem" href="teaching">Teaching</a>
+          <a class="navbarmenuitem" href="resources">Resources</a>
+          <a
+            class="navbarmenuitem"
+            style="
+              border-top-right-radius: 1vh;
+              border-bottom-right-radius: 1vh;
+            "
+            href="assets/cv.pdf"
+          >
+            CV
+          </a>
+        </div>
+      </div>
+      <div id="content">
+        <div id="englishbox">
+          <div id="englishboxtitle">English Resources</div>
+        </div>
+        <div id="spanishbox">
+          <div id="spanishboxtitle">Spanish Resources</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
