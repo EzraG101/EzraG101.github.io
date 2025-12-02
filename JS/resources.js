@@ -6,10 +6,10 @@ const resourceNum = {
   description: "Explains blah blah blah",
 };
 
-// List of teaching experiences below.
+// List of resources below.
 
 // On experience addition, make a new JavaScript object as above.
-// Add teachingNum to FRONT of english_res or spanish_res for it to be visible.
+// Add resourceNum to FRONT of english_res or spanish_res for it to be visible.
 // You can crtl + f to find them ^
 
 // psst don't forget the comma after every attribute ;)
