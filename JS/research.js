@@ -19,7 +19,7 @@ const paper5 = {
   title: "An Overview of the Arf Invariant",
   arxiv: "In Progress",
   link: "",
-  description: "to be completed later",
+  description: "",
 };
 
 const paper4 = {
@@ -48,7 +48,7 @@ const paper1 = {
     "Simple Eigenvalues and Non-vanishing Eigenvectors of the Anderson Model",
   arxiv: "arXiv:2512.00278",
   link: "http://arxiv.org/abs/2512.00278",
-  description: "to be completed later",
+  description: "In this paper, we study spectral conditions on a randomly defined matrix on a graph, \\(G\\). Specifically, we construct a random matrix by adding a diagonal matrix,\\(V\\), with random i.i.d entries to the Laplacian matrix, \\(\\Delta\\), of the graph. We call a \\(V\\) good if \\(\\Delta+tV\\) has simple eigenvalues and non-vanishing eigenvectors for all but finitely many \\(t\\in\\mathbb R\\). Otherwise, we call \\(V\\) bad. We prove results on \\(\\mathbb P(V\\) is good\\()\\) for different probability distributions.",
 };
 
 // Add HERE
