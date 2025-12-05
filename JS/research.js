@@ -33,7 +33,7 @@ const paper3 = {
   title: "Applications of Morse Theory to Algebraic Topology",
   arxiv: "[PDF]",
   link: "papers/20250506.pdf",
-  description: "to be completed later",
+  description: "In this paper we introduce Morse theory and use it to prove several classical results from algebraic topology. More specifically, we compute the (co)homology of \\(\\mathbb C P^n\\) and \\(\\Omega S^n\\) and prove the Freudenthal suspension theorem.",
 };
 
 const paper2 = {
