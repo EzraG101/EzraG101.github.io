@@ -40,7 +40,7 @@ const paper2 = {
   title: "Constructing Braid Invariants via Representations",
   arxiv: "[PDF]",
   link: "papers/20241208.pdf",
-  description: "to be completed later",
+  description: "In this paper we introduce braids and the braid group. Using tools from linear algebra, we construct representations of the braid group and use them to obtain braid invariants. We conclude with an example of how to use our results to distinguish two particular braids.",
 };
 
 const paper1 = {
