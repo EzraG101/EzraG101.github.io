@@ -19,7 +19,7 @@ const paper5 = {
   title: "An Overview of the Arf Invariant",
   arxiv: "In Progress",
   link: "",
-  description: "",
+  description: "Plan: In this paper, we present the Arf invariant and show it is a concordance invariant of knots.",
 };
 
 const paper4 = {
