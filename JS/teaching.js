@@ -21,7 +21,7 @@ const teaching5 = {
   dates: "January 2025",
   org: "MISTI Global Teaching Labs, Spain",
   location: "Madrid, Spain",
-  description: "to be completed",
+  description: "I participated in MIT's <a href='https://misti.mit.edu/types-programs/global-teaching-labs'>Global Teaching Labs</a>, helping math teachers at the <a href='https://iesgerardodiego.com'>IES Gerardo Diego</a> throughout the month of January.",
 };
 
 const teaching4 = {
@@ -29,7 +29,7 @@ const teaching4 = {
   dates: "September 2024 - December 2024",
   org: "MIT Department of Mathematics",
   location: "Cambridge, Massachusetts",
-  description: "to be completed",
+  description: "In the fall 2024 semester, I worked as the Undegraduate Assistant for Differential Geometry (18.950).",
 };
 
 const teaching3 = {
@@ -37,7 +37,7 @@ const teaching3 = {
   dates: "February 2025 - May 2025",
   org: "Menezes Challenge PRIMES Circle",
   location: "Cambridge, Massachusetts",
-  description: "to be completed",
+  description: "In the spring 2025 semester, I worked as a mentor for <a href='https://math.mit.edu/research/highschool/primes/circle/index.html'>PRIMES Circle</a>. If you are a high school student in the Boston area, I encourage you to apply! If you are a current MIT undegrad, I suggest you apply to be a mentor!",
 };
 
 const teaching2 = {
@@ -45,7 +45,7 @@ const teaching2 = {
   dates: "Spring 2024, Spring 2025, Fall 2025",
   org: "MIT Department of Mathematics",
   location: "Cambridge, Massachusetts",
-  description: "to be completed",
+  description: "I am currently the Undergraduate Assistant for Introduction to Topology (18.901), taught by Paul Seidel. I hold my weekly office hours Friday 17:00-18:00. You can also contact me at my email for any topology questions.",
 };
 
 const teaching1 = {
@@ -53,7 +53,7 @@ const teaching1 = {
   dates: "September 2023 - Present",
   org: "MIT Math Learning Center",
   location: "Cambridge, Massachusetts",
-  description: "to be completed",
+  description: "I work at the <a href='https://math.mit.edu/learningcenter/'>MIT Math Learning Center</a> Tuesdays and Thursdays 15:00-17:00. Feel free to drop in to ask questions from your math classes, or just chat about math in general.",
 };
 
 // Add HERE
