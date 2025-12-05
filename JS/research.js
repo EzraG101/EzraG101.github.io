@@ -26,21 +26,21 @@ const paper4 = {
   title: "The Rectifiability Theorem for Varifolds",
   arxiv: "[PDF]",
   link: "papers/20250512.pdf",
-  description: "to be completed later",
+  description: "In this paper, we introduce varifolds and prove the first rectifiability theorem.",
 };
 
 const paper3 = {
   title: "Applications of Morse Theory to Algebraic Topology",
   arxiv: "[PDF]",
   link: "papers/20250506.pdf",
-  description: "In this paper we introduce Morse theory and use it to prove several classical results from algebraic topology. More specifically, we compute the (co)homology of \\(\\mathbb C P^n\\) and \\(\\Omega S^n\\) and prove the Freudenthal suspension theorem.",
+  description: "In this paper, we present Morse theory and use it to prove several classical results from algebraic topology. More specifically, we compute the (co)homology of \\(\\mathbb C P^n\\) and \\(\\Omega S^n\\) and prove the Freudenthal suspension theorem.",
 };
 
 const paper2 = {
   title: "Constructing Braid Invariants via Representations",
   arxiv: "[PDF]",
   link: "papers/20241208.pdf",
-  description: "In this paper we introduce braids and the braid group. Using tools from linear algebra, we construct representations of the braid group and use them to obtain braid invariants. We conclude with an example of how to use our results to distinguish two particular braids.",
+  description: "In this paper, we introduce braids and the braid group. Using tools from linear algebra, we construct representations of the braid group and use them to obtain braid invariants. We conclude with an example of how to use our results to distinguish two particular braids.",
 };
 
 const paper1 = {
