@@ -21,7 +21,7 @@ const teaching5 = {
   dates: "January 2025",
   org: "MISTI Global Teaching Labs, Spain",
   location: "Madrid, Spain",
-  description: "I participated in MIT's <a href='https://misti.mit.edu/types-programs/global-teaching-labs'>Global Teaching Labs</a>, helping math teachers at the <a href='https://iesgerardodiego.com'>IES Gerardo Diego</a> throughout the month of January.",
+  description: "I participated in MIT's <a href='https://misti.mit.edu/types-programs/global-teaching-labs' target=_blank>Global Teaching Labs</a>, helping math teachers at the <a href='https://iesgerardodiego.com' target=_blank>IES Gerardo Diego</a> throughout the month of January.",
 };
 
 const teaching4 = {
@@ -37,7 +37,7 @@ const teaching3 = {
   dates: "February 2025 - May 2025",
   org: "Menezes Challenge PRIMES Circle",
   location: "Cambridge, Massachusetts",
-  description: "In the spring 2025 semester, I worked as a mentor for <a href='https://math.mit.edu/research/highschool/primes/circle/index.html'>PRIMES Circle</a>. If you are a high school student in the Boston area, I encourage you to apply! If you are a current MIT undegrad, I suggest you apply to be a mentor!",
+  description: "In the spring 2025 semester, I worked as a mentor for <a href='https://math.mit.edu/research/highschool/primes/circle/index.html' target=_blank>PRIMES Circle</a>. If you are a high school student in the Boston area, I encourage you to apply! If you are a current MIT undegrad, I suggest you apply to be a mentor!",
 };
 
 const teaching2 = {
@@ -53,7 +53,7 @@ const teaching1 = {
   dates: "September 2023 - Present",
   org: "MIT Math Learning Center",
   location: "Cambridge, Massachusetts",
-  description: "I work at the <a href='https://math.mit.edu/learningcenter/'>MIT Math Learning Center</a> Tuesdays and Thursdays 15:00-17:00. Feel free to drop in to ask questions from your math classes, or just chat about math in general.",
+  description: "I work at the <a href='https://math.mit.edu/learningcenter/' target=_blank>MIT Math Learning Center</a> Tuesdays and Thursdays 15:00-17:00. Feel free to drop in to ask questions from your math classes, or just chat about math in general.",
 };
 
 // Add HERE
