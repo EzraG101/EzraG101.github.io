@@ -17,9 +17,9 @@ const paperNum = {
 
 const paper5 = {
   title: "An Overview of the Arf Invariant",
-  arxiv: "In Progress",
-  link: "",
-  description: "Plan: In this paper, we present the Arf invariant and show it is a concordance invariant of knots.",
+  arxiv: "[PDF]",
+  link: "papers/20251215.pdf",
+  description: "In this paper, we present three starkly different but equivalent definitions of the Arf invariant for knots. First, we define it using a quadratic form over \\(\\mathbb Z / 2\\). Then, we take an approach using pass-moves and pass-equivalence. Lastly, we give a definition in terms of the Alexander Polynomial. We conclude by using our different definitions to prove the Arf invariant is a concordance invariant of knots.",
 };
 
 const paper4 = {
