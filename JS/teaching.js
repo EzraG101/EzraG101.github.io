@@ -16,6 +16,22 @@ const teachingNum = {
 
 // psst don't forget the comma after every attribute ;)
 
+const teaching7 = {
+  position: "Undergraduate Grader - Algebra I",
+  dates: "September 2023 - December 2023",
+  org: "MIT Department of Mathematics",
+  location: "Cambridge, Massachusetts",
+  description: "In the Fall 2023 semester, I worked as a grader for Algebra I (18.701).",
+};
+
+const teaching6 = {
+  position: "Teaching Assistant",
+  dates: "July 2025",
+  org: "STEM Advancement Program by Stacy",
+  location: "Online",
+  description: "I was a teaching assistant for the <a href='https://edu.stacyvazquez.com/programs'>SAPS</a> Introduction to Combinatorics Bootcamp, helping create problem sets, holding office hours, and drafting the bootcamp's lecture notes.",
+};
+
 const teaching5 = {
   position: "Teaching Assistant",
   dates: "January 2025",
@@ -29,7 +45,7 @@ const teaching4 = {
   dates: "September 2024 - December 2024",
   org: "MIT Department of Mathematics",
   location: "Cambridge, Massachusetts",
-  description: "In the fall 2024 semester, I worked as the Undegraduate Assistant for Differential Geometry (18.950).",
+  description: "In the fall 2024 semester, I worked as the Undergraduate Assistant for Differential Geometry (18.950).",
 };
 
 const teaching3 = {
@@ -37,7 +53,7 @@ const teaching3 = {
   dates: "February 2025 - May 2025",
   org: "Menezes Challenge PRIMES Circle",
   location: "Cambridge, Massachusetts",
-  description: "In the spring 2025 semester, I worked as a mentor for <a href='https://math.mit.edu/research/highschool/primes/circle/index.html' target=_blank>PRIMES Circle</a>. If you are a high school student in the Boston area, I encourage you to apply! If you are a current MIT undegrad, I suggest you apply to be a mentor!",
+  description: "I am currently mentoring for <a href='https://math.mit.edu/research/highschool/primes/circle/index.html' target=_blank>PRIMES Circle</a>, following Sibley's <em>Thinking Geometrically</em>. If you are a high school student in the Boston area, I encourage you to apply to the program! If you are a current MIT undegrad, I suggest you apply to be a mentor!",
 };
 
 const teaching2 = {
@@ -45,7 +61,7 @@ const teaching2 = {
   dates: "Spring 2024, Spring 2025, Fall 2025",
   org: "MIT Department of Mathematics",
   location: "Cambridge, Massachusetts",
-  description: "I am currently the Undergraduate Assistant for Introduction to Topology (18.901), taught by Paul Seidel. I hold my weekly office hours Friday 17:00-18:00. You can also contact me at my email for any topology questions.",
+  description: "In the Spring 2024, Spring 2025, and Fall 2025 semesters, I worked as the Undergraduate Assistant for Introduction to Topology (18.901).",
 };
 
 const teaching1 = {
@@ -58,4 +74,4 @@ const teaching1 = {
 
 // Add HERE
 
-const teaching_exp = [teaching1, teaching2, teaching3, teaching4, teaching5];
+const teaching_exp = [teaching1, teaching3, teaching2, teaching4, teaching6, teaching5, teaching7];
