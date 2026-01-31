@@ -17,7 +17,7 @@ const resourceNum = {
 const resource15 = {
   name: "How to Solve the Arnold Conjecture (Slides)",
   link: "/assets/english/floer-1.pdf",
-  description: "Slides for my presentation for the 2026 MIT DRP Symposium. In this talk, I presented the Arnold conjecture and outlined how to solve the problem using the techniques of Floer homology.",
+  description: "Slides for my presentation at the 2026 MIT DRP Symposium. In this talk, I presented the Arnold conjecture and outlined how to solve the problem using the techniques of Floer homology.",
 };
 
 const resource14 = {
