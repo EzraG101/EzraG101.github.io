@@ -14,6 +14,12 @@ const resourceNum = {
 
 // psst don't forget the comma after every attribute ;)
 
+const resource15 = {
+  name: "How to Solve the Arnold Conjecture (Slides)",
+  link: "/assets/english/floer-1.pdf",
+  description: "Slides for my presentation for the 2026 MIT DRP Symposium. In this talk, I presented the Arnold conjecture and outlined how to solve the problem using the techniques of Floer homology.",
+};
+
 const resource14 = {
   name: "Factoriales!",
   link: "/assets/spanish/teoria-numeros-4.pdf",
@@ -100,7 +106,7 @@ const resource1 = {
 
 // Add HERE
 
-const english_res = [resource2, resource3, resource4, resource5, resource1];
+const english_res = [resource15, resource2, resource3, resource4, resource5, resource1];
 const spanish_res = [
   resource6,
   resource7,
