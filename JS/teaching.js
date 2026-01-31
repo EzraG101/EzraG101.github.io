@@ -69,7 +69,7 @@ const teaching1 = {
   dates: "September 2023 - Present",
   org: "MIT Math Learning Center",
   location: "Cambridge, Massachusetts",
-  description: "I work at the <a href='https://math.mit.edu/learningcenter/' target=_blank>MIT Math Learning Center</a> Tuesdays and Thursdays 15:00-17:00. Feel free to drop in to ask questions from your math classes, or just chat about math in general.",
+  description: "I work at the <a href='https://math.mit.edu/learningcenter/' target=_blank>MIT Math Learning Center</a> Mondays and Wednesdays 15:00-17:00. Feel free to drop in to ask questions from your math classes, or just chat about math in general.",
 };
 
 // Add HERE
