@@ -23,55 +23,55 @@ const resource15 = {
 const resource14 = {
   name: "Factoriales!",
   link: "/assets/spanish/teoria-numeros-4.pdf",
-  description: "",
+  description: "Una breve introducci&oacuten a los factoriales en la teor&iacutea de n&uacutemeros.",
 };
 
 const resource13 = {
   name: "Ecuaciones Diof&aacutenticas",
   link: "/assets/spanish/teoria-numeros-3.pdf",
-  description: "",
+  description: "Una breve introducci&oacuten a las ecuaciones diof&aacutenticas.",
 };
 
 const resource12 = {
   name: "Divisibilidad",
   link: "/assets/spanish/teoria-numeros-2.pdf",
-  description: "",
+  description: "Una breve introducci&oacuten al concepto de divisibilidad.",
 };
 
 const resource11 = {
   name: "Aritm&eacutetica Modular",
   link: "/assets/spanish/teoria-numeros-1.pdf",
-  description: "",
+  description: "Una breve introducci&oacuten a la aritm&eacutetica modular.",
 };
 
 const resource10 = {
   name: "Transformaciones",
   link: "/assets/spanish/geometria-4.pdf",
-  description: "",
+  description: "Como usar transformaciones para resolver problemas geom&eacutetricos.",
 };
 
 const resource9 = {
   name: "Semejanza y Cuadril&aacuteteros C&iacuteclicos",
   link: "/assets/spanish/geometria-3.pdf",
-  description: "",
+  description: "Una breve introducci&oacuten a los cuadril&aacuteteros c&iacuteclicos y la semejanza de tri&aacutengulos.",
 };
 
 const resource8 = {
   name: "Homotecia y el C&iacuterculo de los Nueve Puntos",
   link: "/assets/spanish/geometria-2.pdf",
-  description: "",
+  description: "Una breve introducci&oacuten a la homotecia y al c&iacuterculo de los Nueve Puntos.",
 };
 
 const resource7 = {
   name: "Coordenadas Cartesianas y Rect&aacutengulos",
   link: "/assets/spanish/geometria-1.pdf",
-  description: "",
+  description: "Una breve introducci&oacuten a las coordenadas cartesianas.",
 };
 
 const resource6 = {
   name: "La Desigualdad del Reacomodo",
   link: "/assets/spanish/algebra-1.pdf",
-  description: "",
+  description: "Una breve introducci&oacuten a la desigualdad del reacomodo.",
 };
 
 const resource5 = {
