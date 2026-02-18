@@ -14,6 +14,12 @@ const resourceNum = {
 
 // psst don't forget the comma after every attribute ;)
 
+const resource16 = {
+  name: "Homology of Fibered Spaces (Lecture Notes)",
+  link: "/assets/english/alg-topo-1.pdf",
+  description: "Lecture notes for my first talk for MIT's Graduate Topology Seminar (18.919). In this talk, I discussed the Serre spectral sequence and used it to obtain results on Serre fibrations, concluding with a computation of the homology of the loop space of a sphere.",
+};
+
 const resource15 = {
   name: "How to Solve the Arnold Conjecture (Slides)",
   link: "/assets/english/floer-1.pdf",
@@ -106,7 +112,7 @@ const resource1 = {
 
 // Add HERE
 
-const english_res = [resource15, resource2, resource3, resource4, resource5, resource1];
+const english_res = [resource16, resource15, resource2, resource3, resource4, resource5, resource1];
 const spanish_res = [
   resource6,
   resource7,
