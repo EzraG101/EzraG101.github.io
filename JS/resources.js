@@ -14,6 +14,12 @@ const resourceNum = {
 
 // psst don't forget the comma after every attribute ;)
 
+const resource17 = {
+  name: "An Infinite Dimensional Version of Sard's Theorem (Lecture Notes)",
+  link: "/assets/english/diff-top-1.pdf",
+  description: "Lecture notes for my second talk for MIT's Graduate Topology Seminar (18.919). In this talk, I proved Sard's theorem, discussed Banach manifolds, and proved Smale's generalization of Sard's theorem for Fredholm maps between Banach manifolds."
+};
+
 const resource16 = {
   name: "Homology of Fibered Spaces (Lecture Notes)",
   link: "/assets/english/alg-topo-1.pdf",
@@ -112,7 +118,7 @@ const resource1 = {
 
 // Add HERE
 
-const english_res = [resource16, resource15, resource2, resource3, resource4, resource5, resource1];
+const english_res = [resource17, resource16, resource15, resource2, resource3, resource4, resource5, resource1];
 const spanish_res = [
   resource6,
   resource7,
