@@ -50,10 +50,10 @@ const teaching4 = {
 
 const teaching3 = {
   position: "PRIMES Circle Mentor",
-  dates: "February 2025 - May 2025",
+  dates: "Spring 2025, Spring 2026",
   org: "Menezes Challenge PRIMES Circle",
   location: "Cambridge, Massachusetts",
-  description: "I am currently mentoring for <a href='https://math.mit.edu/research/highschool/primes/circle/index.html' target=_blank>PRIMES Circle</a>, following Sibley's <em>Thinking Geometrically</em>. If you are a high school student in the Boston area, I encourage you to apply to the program! If you are a current MIT undegrad, I suggest you apply to be a mentor!",
+  description: "In the Spring 2025 and Spring 2026 semesters, I mentored for <a href='https://math.mit.edu/research/highschool/primes/circle/index.html' target=_blank>PRIMES Circle</a>. If you are a high school student in the Boston area, I encourage you to apply to the program! If you are a current MIT undegrad, I suggest that you apply to be a mentor!",
 };
 
 const teaching2 = {
@@ -66,10 +66,10 @@ const teaching2 = {
 
 const teaching1 = {
   position: "Mathematics Tutor",
-  dates: "September 2023 - Present",
+  dates: "September 2023 - May 2026",
   org: "MIT Math Learning Center",
   location: "Cambridge, Massachusetts",
-  description: "I work at the <a href='https://math.mit.edu/learningcenter/' target=_blank>MIT Math Learning Center</a> Mondays and Wednesdays 15:00-17:00. Feel free to drop in to ask questions from your math classes, or just chat about math in general.",
+  description: "During my time at MIT, I worked at the <a href='https://math.mit.edu/learningcenter/' target=_blank>MIT Math Learning Center</a>. If you are an undergraduate at MIT, this is a great resource to supplement your math courses.",
 };
 
 // Add HERE
