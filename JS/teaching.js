@@ -16,6 +16,14 @@ const teachingNum = {
 
 // psst don't forget the comma after every attribute ;)
 
+const teaching8 = {
+  position: "Instructor and Residential Counselor",
+  dates: "July 2026",
+  org: "Cybermath",
+  location: "Cambridge, Massachusetts",
+  description: "I worked as both an instructor and residential counselor for the <a href='https://www.cybermath.org/harvard-summer-math-camp/'>Cybermath Academy</a> at Harvard University Summer Camp. I delivered daily lectures to students on diverse math topics, ranging from sequences and series to introductory Olympiad Geometry. I also accompanied the students in their day to day activities, keeping a safe and welcoming environment for all involved.",
+};
+
 const teaching7 = {
   position: "Undergraduate Grader - Algebra I",
   dates: "September 2023 - December 2023",
@@ -57,7 +65,7 @@ const teaching3 = {
 };
 
 const teaching2 = {
-  position: "Undergradate Assistant - Introduction to Topology",
+  position: "Undergraduate Assistant - Introduction to Topology",
   dates: "Spring 2024, Spring 2025, Fall 2025",
   org: "MIT Department of Mathematics",
   location: "Cambridge, Massachusetts",
@@ -74,4 +82,4 @@ const teaching1 = {
 
 // Add HERE
 
-const teaching_exp = [teaching1, teaching3, teaching2, teaching4, teaching6, teaching5, teaching7];
+const teaching_exp = [teaching1, teaching3, teaching6, teaching8, teaching2, teaching4, teaching5, teaching7];
