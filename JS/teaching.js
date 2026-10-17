@@ -16,6 +16,14 @@ const teachingNum = {
 
 // psst don't forget the comma after every attribute ;)
 
+const teaching9 = {
+  position: "Directed Reading Program Mentor",
+  dates: "September 2026 - Present",
+  org: "USC Department of Mathematics",
+  location: "Los Angeles, California",
+  description: "I am currently mentoring two students in the <a href='https://sites.google.com/usc.edu/uscmathdrp/home'>USC Directed Reading Program </a>. I am guiding them through Guillemin and Pollack's Differential Topology, with weekly one-hour meetings to discuss concepts and problems from the book. If you are a current USC undergraduate student, I encourage you to participate in future semesters. If you are a current PhD student, you should become a mentor!",
+};
+
 const teaching8 = {
   position: "Instructor and Residential Counselor",
   dates: "July 2026",
@@ -82,4 +90,4 @@ const teaching1 = {
 
 // Add HERE
 
-const teaching_exp = [teaching1, teaching3, teaching6, teaching8, teaching2, teaching4, teaching5, teaching7];
+const teaching_exp = [teaching9, teaching1, teaching3, teaching6, teaching8, teaching2, teaching4, teaching5, teaching7];
