@@ -14,6 +14,12 @@ const resourceNum = {
 
 // psst don't forget the comma after every attribute ;)
 
+const resource18 = {
+  name: "Punctured Curves (Lecture Notes)",
+  link: "/assets/symp-1.pdf",
+  description: "Lecture notes for my first talk for USC's <a href='https://michael-huang2001.github.io/sft-seminar/#speaking'>Topology Seminar on Symplectic Field Theory</a>. In this talk, I presented Stable Hamiltonian Structures, discussed symplectizations, symplectic cobordisms and their completions, and introduced the moduli space of asymptotically cylindrical J-holomorphic curves.",
+};
+
 const resource17 = {
   name: "An Infinite Dimensional Version of Sard's Theorem (Lecture Notes)",
   link: "/assets/english/diff-top-1.pdf",
@@ -118,7 +124,7 @@ const resource1 = {
 
 // Add HERE
 
-const english_res = [resource17, resource16, resource15, resource2, resource3, resource4, resource5, resource1];
+const english_res = [resource18, resource17, resource16, resource15, resource2, resource3, resource4, resource5, resource1];
 const spanish_res = [
   resource6,
   resource7,
