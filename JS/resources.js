@@ -124,7 +124,7 @@ const resource1 = {
 
 // Add HERE
 
-const english_res = [resource18, resource17, resource16, resource15, resource2, resource3, resource4, resource5, resource1];
+const english_res = [resource18, resource17, resource16, resource15, resource5, resource4, resource3, resource2, resource1];
 const spanish_res = [
   resource6,
   resource7,
