@@ -14,6 +14,18 @@ const resourceNum = {
 
 // psst don't forget the comma after every attribute ;)
 
+const resource20 = {
+  name: "The Nodal Count Condition for the Anderson Model (Slides)",
+  link: "/assets/mphy-1.pdf",
+  description: "Slides for my presentation at the 2025 MIT SPUR Conference. In this talk, I discussed the Nodal Count Condition and presented original results concerning the probability of a random matrix satisfying this condition.",
+};
+
+const resource19 = {
+  name: "The h-cobordism Theorem (Lecture Notes)",
+  link: "/assets/dtop-1.pdf",
+  description: "Lecture notes for my presentation at the 2024 MIT DRP Symposium. In this talk, I presented Smale's h-cobordism theorem and gave an outline for its proof using handle decompositions.",
+};
+
 const resource18 = {
   name: "Punctured Curves (Lecture Notes)",
   link: "/assets/english/symp-2.pdf",
@@ -22,7 +34,7 @@ const resource18 = {
 
 const resource17 = {
   name: "An Infinite Dimensional Version of Sard's Theorem (Lecture Notes)",
-  link: "/assets/english/dtop-1.pdf",
+  link: "/assets/english/dtop-2.pdf",
   description: "Lecture notes for my second talk for MIT's Graduate Topology Seminar (18.919). In this talk, I proved Sard's theorem, discussed Banach manifolds, and proved Smale's generalization of Sard's theorem for Fredholm maps between Banach manifolds."
 };
 
@@ -124,7 +136,7 @@ const resource1 = {
 
 // Add HERE
 
-const english_res = [resource18, resource17, resource16, resource15, resource5, resource4, resource3, resource2, resource1];
+const english_res = [resource18, resource17, resource16, resource15, resource20, resource19, resource5, resource4, resource3, resource2, resource1];
 const spanish_res = [
   resource6,
   resource7,
