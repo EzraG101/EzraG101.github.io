@@ -16,13 +16,13 @@ const resourceNum = {
 
 const resource20 = {
   name: "The Nodal Count Condition for the Anderson Model (Slides)",
-  link: "/assets/mphy-1.pdf",
+  link: "/assets/english/mphy-1.pdf",
   description: "Slides for my presentation at the 2025 MIT SPUR Conference. In this talk, I discussed the Nodal Count Condition and presented original results concerning the probability of a random matrix satisfying this condition.",
 };
 
 const resource19 = {
   name: "The h-cobordism Theorem (Lecture Notes)",
-  link: "/assets/dtop-1.pdf",
+  link: "/assets/english/dtop-1.pdf",
   description: "Lecture notes for my presentation at the 2024 MIT DRP Symposium. In this talk, I presented Smale's h-cobordism theorem and gave an outline for its proof using handle decompositions.",
 };
 
