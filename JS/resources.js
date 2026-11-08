@@ -14,6 +14,12 @@ const resourceNum = {
 
 // psst don't forget the comma after every attribute ;)
 
+const resource22 = {
+  name: "Introduction to Foliations (Lecture Notes)",
+  link: "/assets/english/dtop-3.pdf",
+  description: "Lecture notes for my second talk for USC's <a href='https://michael-huang2001.github.io/sft-seminar/#speaking'>Topology Seminar on Symplectic Field Theory</a>. In this talk, I defined foliations, giving various examples, proved the Frobenius integrability theorem, and introduced holonomy.",
+};
+
 const resource21 = {    
   name: "Simple Eigenvalues and Non-vanishing Eigenvectors of Random Matrices (Slides)",
   link: "/assets/english/mphy-2.pdf",
@@ -142,7 +148,7 @@ const resource1 = {
 
 // Add HERE
 
-const english_res = [resource21, resource18, resource17, resource16, resource15, resource20, resource19, resource5, resource4, resource3, resource2, resource1];
+const english_res = [resource22, resource21, resource18, resource17, resource16, resource15, resource20, resource19, resource5, resource4, resource3, resource2, resource1];
 const spanish_res = [
   resource6,
   resource7,
