@@ -14,6 +14,12 @@ const resourceNum = {
 
 // psst don't forget the comma after every attribute ;)
 
+const resource21 = {    
+  name: "Simple Eigenvalues and Non-vanishing Eigenvectors of Random Matrices (Slides)",
+  link: "/assets/english/mphy-2.pdf",
+  description: "Slides for my presentation at the Fall 2026 USC Graduate Colloquium. In this talk, I discussed the Nodal Count Condition and presented original results concerning the probability of a random matrix satisfying this condition.",
+};
+
 const resource20 = {
   name: "The Nodal Count Condition for the Anderson Model (Slides)",
   link: "/assets/english/mphy-1.pdf",
@@ -136,7 +142,7 @@ const resource1 = {
 
 // Add HERE
 
-const english_res = [resource18, resource17, resource16, resource15, resource20, resource19, resource5, resource4, resource3, resource2, resource1];
+const english_res = [resource21, resource18, resource17, resource16, resource15, resource20, resource19, resource5, resource4, resource3, resource2, resource1];
 const spanish_res = [
   resource6,
   resource7,
