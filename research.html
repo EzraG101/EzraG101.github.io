@@ -1,18 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Research | Ezra Guerrero Alvarez</title>
-    <link
-      rel="icon"
-      href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Klein_bottle.svg/480px-Klein_bottle.svg.png"
-      type="image/x-icon"
-    />
-    <link
-      rel="shortcut icon"
-      href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Klein_bottle.svg/480px-Klein_bottle.svg.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="CSS/template.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/research.css" />
     <meta name="author" content="Ezra Guerrero" />
     <meta
@@ -32,9 +24,8 @@
         (loadContent = () => {
           // Load Research Papers
           research_papers.forEach((paper) => {
-            document.getElementById(
-              "researchbox"
-            ).innerHTML += `<div class="researchboxelem">
+            document.getElementById("researchbox").innerHTML +=
+              `<div class="researchboxelem">
             <div class="researchboxelemtitle">${paper.title}</div>
             <a class="researchboxelemarxiv" href="${paper.link}" target="_blank">${paper.arxiv}</a>
             <div class="researchboxelemdescription">
@@ -45,9 +36,8 @@
           // Load Expository Papers
           exposit_papers.forEach((paper) => {
             if (paper.link) {
-              document.getElementById(
-                "expositorybox"
-              ).innerHTML += `<div class="expositoryboxelem">
+              document.getElementById("expositorybox").innerHTML +=
+                `<div class="expositoryboxelem">
             <div class="expositoryboxelemtitle">${paper.title}</div>
             <a class="expositoryboxelemlink" href="${paper.link}" target="_blank">${paper.arxiv}</a>
             <div class="expositoryboxelemdescription">
@@ -55,9 +45,8 @@
             </div>
           </div>`;
             } else {
-              document.getElementById(
-                "expositorybox"
-              ).innerHTML += `<div class="expositoryboxelem">
+              document.getElementById("expositorybox").innerHTML +=
+                `<div class="expositoryboxelem">
             <div class="expositoryboxelemtitle">${paper.title}</div>
             <div class="expositoryboxelemlinkbroken">${paper.arxiv}</div>
             <div class="expositoryboxelemdescription">
@@ -67,37 +56,13 @@
             }
           });
           MathJax.typesetPromise();
-        })
+        }),
       );
     </script>
   </head>
   <body>
     <div id="webpage">
-      <div id="navbar">
-        <div id="navbartitle">Ezra Guerrero Alvarez</div>
-        <div id="navbarmenu">
-          <a
-            class="navbarmenuitem"
-            style="border-top-left-radius: 1vh; border-bottom-left-radius: 1vh"
-            href="index"
-          >
-            Home
-          </a>
-          <a class="navbarmenuitem" href="research">Research</a>
-          <a class="navbarmenuitem" href="teaching">Teaching</a>
-          <a class="navbarmenuitem" href="resources">Resources</a>
-          <a
-            class="navbarmenuitem"
-            style="
-              border-top-right-radius: 1vh;
-              border-bottom-right-radius: 1vh;
-            "
-            href="assets/cv.pdf"
-          >
-            CV
-          </a>
-        </div>
-      </div>
+      <script src="JS/elements/navbar.js"></script>
       <div id="content">
         <div id="researchbox">
           <div id="researchboxtitle">Research Papers</div>

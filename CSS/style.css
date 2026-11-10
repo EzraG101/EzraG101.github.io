@@ -1,0 +1,170 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap");
+
+@font-face {
+  font-family: mainfont;
+  src: url("Autography.otf");
+}
+
+/* CSS Variables */
+:root {
+  /* Color Palette */
+  --orchid: #a28ca1;
+  --midnight: #424e4d;
+  --acorn: #c1a57f;
+  --sand: #e5d5ce;
+  --snow: #e1e6e9;
+  --cream: #f8f4ee;
+  /* Scaling Variables */
+  --gridUnit: max(4vh, 1.25rem);
+  --pageWidth: calc(37 * var(--gridUnit));
+  --pageHeight: calc(22.5 * var(--gridUnit));
+}
+
+/* Website Behavior */
+html {
+  scroll-behavior: smooth;
+  background: var(--cream);
+}
+
+body {
+  margin: 0;
+  overflow: auto;
+  min-width: 100%;
+  width: calc(25 * var(--gridUnit) * 99.375vw / 100vh);
+  min-height: calc(25 * var(--gridUnit));
+  padding: calc(5 / 4 * var(--gridUnit)) 0 calc(5 / 4 * var(--gridUnit)) 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* body background */
+  background-color: var(--cream);
+  background-size: var(--gridUnit) var(--gridUnit);
+  background-position: center top;
+  background-image:
+    linear-gradient(
+      to bottom,
+      var(--snow) calc(var(--gridUnit) / 20),
+      transparent calc(var(--gridUnit) / 20)
+    ),
+    linear-gradient(
+      to right,
+      var(--snow) calc(var(--gridUnit) / 20),
+      transparent calc(var(--gridUnit) / 20)
+    );
+}
+
+::-webkit-scrollbar {
+  width: 0.625vw;
+  height: 0.625vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--orchid);
+  border-radius: 0.25vw;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--snow);
+}
+
+/* Page */
+#webpage {
+  width: var(--pageWidth);
+  min-height: var(--pageHeight);
+  justify-self: center;
+}
+
+/* Navbar */
+
+#navbar {
+  width: 100%;
+  height: calc(19 / 4 * var(--gridUnit));
+  padding-top: calc(1.5 / 4 * var(--gridUnit));
+  box-sizing: border-box;
+}
+
+#navbartitle {
+  justify-self: center;
+  font-family: mainfont;
+  font-size: calc(5.5 / 4 * var(--gridUnit));
+  text-align: center;
+  color: var(--midnight);
+}
+
+#navbarmenu {
+  width: 100%;
+  height: calc(6 / 4 * var(--gridUnit));
+  margin-bottom: calc(1 / 4 * var(--gridUnit));
+  border-radius: calc(1 / 4 * var(--gridUnit));
+  overflow: hidden;
+  background: var(--orchid);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#navbarmenu > a {
+  min-width: max-content;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Radio Canada", sans-serif;
+  font-size: calc(2.625 / 4 * var(--gridUnit));
+  color: var(--cream);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#navbarmenu > a:hover {
+  background: var(--sand);
+  color: var(--orchid);
+}
+
+/* Rest of Page */
+
+#content {
+  margin-top: var(--gridUnit);
+  font-family: "Radio Canada", sans-serif;
+  color: var(--midnight);
+}
+
+/* misc */
+
+a {
+  color: var(--acorn);
+}
+
+a:hover {
+  color: var(--orchid);
+}
+
+/* Mobile */
+@media screen and (max-width: 156vh) {
+  :root {
+    --pageWidth: 90%;
+  }
+
+  #navbar {
+    height: unset;
+    margin-bottom: calc(5 / 4 * var(--gridUnit));
+  }
+
+  #navbartitle {
+    font-size: min(5.5rem, calc(5.5 / 4 * var(--gridUnit)));
+  }
+
+  #navbarmenu {
+    height: min(6rem, calc(6 / 4 * var(--gridUnit)));
+    padding: 0 5% 0 5%;
+    box-sizing: border-box;
+  }
+
+  #navbarmenu > a {
+    width: max-content;
+    font-size: min(2.125rem, calc(2.125 / 4 * var(--gridUnit)));
+  }
+}
