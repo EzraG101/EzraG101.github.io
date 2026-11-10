@@ -162,17 +162,28 @@ a:hover {
   }
 
   #navbar {
-    height: unset;
-    margin-bottom: calc(5 / 4 * var(--gridUnit));
+    height: auto;
+    padding: 0;
   }
 
   #navbartitle {
+    width: 100%;
+    height: round(
+      nearest,
+      calc(2 * min(5.5rem, calc(5.5 / 4 * var(--gridUnit)))),
+      var(--gridUnit)
+    );
+    margin-top: calc(1.5 / 4 * var(--gridUnit));
+    margin-bottom: calc(
+      11 / 8 * var(--gridUnit) - min(6rem, calc(6 / 4 * var(--gridUnit)))
+    );
     font-size: min(5.5rem, calc(5.5 / 4 * var(--gridUnit)));
   }
 
   #navbarmenu {
     height: min(6rem, calc(6 / 4 * var(--gridUnit)));
     padding: 0 5% 0 5%;
+    margin-bottom: 0;
     box-sizing: border-box;
   }
 
