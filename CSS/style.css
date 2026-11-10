@@ -22,6 +22,12 @@
 }
 
 /* Website Behavior */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
   background: var(--cream);
@@ -151,6 +157,7 @@ a:hover {
 /* Mobile */
 @media screen and (max-width: 156vh) {
   :root {
+    --gridUnit: max(4svh, 1.25rem);
     --pageWidth: 90%;
   }
 
