@@ -118,12 +118,14 @@
   #researchbox,
   #expositorybox {
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #researchbox > div,
   #expositorybox > div {
     width: round(down, 95%, var(--gridUnit));
-    justify-self: center;
   }
 
   #researchboxtitle,

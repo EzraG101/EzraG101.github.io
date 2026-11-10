@@ -72,11 +72,13 @@
 @media screen and (max-width: 156vh) {
   #teachingbox {
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #teachingbox > div {
     width: round(down, 95%, var(--gridUnit));
-    justify-self: center;
   }
 
   #teachingboxtitle {

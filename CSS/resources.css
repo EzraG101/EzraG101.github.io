@@ -66,12 +66,14 @@
   #englishbox,
   #spanishbox {
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #englishbox > div,
   #spanishbox > div {
     width: round(down, 95%, var(--gridUnit));
-    justify-self: center;
   }
 
   #englishboxtitle,
