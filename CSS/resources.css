@@ -1,24 +1,3 @@
-/* FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap");
-
-@font-face {
-  font-family: mainfont;
-  src: url("Autography.otf");
-}
-
-/* CSS Variables */
-:root {
-  /* Color Palette */
-  --orchid: #a28ca1;
-  --midnight: #424e4d;
-  --acorn: #c1a57f;
-  --sand: #e5d5ce;
-  --snow: #e1e6e9;
-  --cream: #f8f4ee;
-  /* Scaling Variables */
-  --pagewidth: min(148vh, 90vw);
-}
-
 #content {
   display: flex;
   flex-direction: column;
@@ -26,66 +5,91 @@
 }
 
 #englishbox {
-  width: var(--pagewidth);
-  border: 0.5vh solid var(--sand);
+  width: 100%;
+  border: calc(var(--gridUnit) / 8) solid var(--sand);
   box-sizing: border-box;
-  padding-left: 3.5vh;
-  padding-right: 3.5vh;
+  padding: 0 calc(3.5 / 4 * var(--gridUnit)) 0 calc(3.5 / 4 * var(--gridUnit));
 }
 
 #englishboxtitle {
   width: 100%;
-  height: 7.5vh;
+  height: calc(7.5 / 4 * var(--gridUnit));
   font-family: mainfont;
-  font-size: 5vh;
+  font-size: max(calc(5 / 4 * var(--gridUnit)), 1.75rem);
   font-weight: bold;
   color: var(--orchid);
-  margin-bottom: 5vh;
+  margin-bottom: calc(5 / 4 * var(--gridUnit));
 }
 
 #spanishbox {
-  width: var(--pagewidth);
-  border: 0.5vh solid var(--sand);
+  width: 100%;
+  border: calc(var(--gridUnit) / 8) solid var(--sand);
   box-sizing: border-box;
-  padding-left: 3.5vh;
-  padding-right: 3.5vh;
-  margin-top: 3.5vh;
+  padding: 0 calc(3.5 / 4 * var(--gridUnit)) 0 calc(3.5 / 4 * var(--gridUnit));
+  margin-top: calc(3.5 / 4 * var(--gridUnit));
 }
 
 #spanishboxtitle {
   width: 100%;
-  height: 7.5vh;
+  height: calc(7.5 / 4 * var(--gridUnit));
   font-family: mainfont;
-  font-size: 5vh;
+  font-size: max(calc(5 / 4 * var(--gridUnit)), 1.75rem);
   font-weight: bold;
   color: var(--orchid);
-  margin-bottom: 5vh;
+  margin-bottom: calc(5 / 4 * var(--gridUnit));
 }
 
 .resourcesboxelem {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   font-family: "Radio Canada", sans-serif;
   color: var(--midnight);
-  line-height: 4vh;
-  margin-bottom: 4vh;
+  line-height: var(--gridUnit);
+  margin-bottom: var(--gridUnit);
 }
 
 .resourcesboxelem:last-child {
-  margin-bottom: 3vh;
+  margin-bottom: calc(3 / 4 * var(--gridUnit));
 }
 
 .resourcesboxelemtitle {
-  width: 100%;
-  min-height: 4vh;
-  box-sizing: border-box;
+  min-height: var(--gridUnit);
   font-weight: bold;
-  cursor: pointer;
 }
 
 .resourcesboxelemdescription {
-  width: 100%;
-  min-height: 4vh;
+  min-height: var(--gridUnit);
+}
+
+/* Mobile */
+
+@media screen and (max-width: 156vh) {
+  #englishbox,
+  #spanishbox {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #englishbox > div,
+  #spanishbox > div {
+    width: round(down, 95%, var(--gridUnit));
+  }
+
+  #englishboxtitle,
+  #spanishboxtitle {
+    font-size: var(--gridUnit);
+    height: calc(15 / 8 * var(--gridUnit));
+    display: flex;
+    align-items: center;
+    margin-bottom: calc(5 * var(--gridUnit) / 16);
+  }
+
+  .resourcesboxelemtitle,
+  .resourcesboxelemdescription {
+    width: 100%;
+    display: block;
+    text-align: left;
+    font-size: min(2.5rem, calc(2.5 / 4 * var(--gridUnit)));
+  }
 }

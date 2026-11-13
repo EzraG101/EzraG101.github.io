@@ -1,23 +1,4 @@
-/* FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap");
-
-@font-face {
-  font-family: mainfont;
-  src: url("Autography.otf");
-}
-
-/* CSS Variables */
 :root {
-  /* Color Palette */
-  --orchid: #a28ca1;
-  --midnight: #424e4d;
-  --acorn: #c1a57f;
-  --sand: #e5d5ce;
-  --snow: #e1e6e9;
-  --cream: #f8f4ee;
-  /* Scaling Variables */
-  --pagewidth: min(148vh, 90vw);
-  /* Image Variables */
   --headshot: url();
 }
 
@@ -29,29 +10,50 @@
 }
 
 #picturebox {
-  width: calc(12 / 37 * var(--pagewidth));
+  width: calc(12 / 37 * var(--pageWidth));
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 8vh;
-  padding-bottom: 8vh;
+  padding-top: calc(2 * var(--gridUnit));
+  padding-bottom: calc(2 * var(--gridUnit));
 }
 
 #pictureheadshot {
-  width: calc(8 / 37 * var(--pagewidth));
+  width: calc(8 / 37 * var(--pageWidth));
   aspect-ratio: 1;
   background-image: var(--headshot);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 0.5vh solid var(--midnight);
-  border-radius: 2vh;
+  border: calc(var(--gridUnit) / 8) solid var(--midnight);
+  border-radius: calc(var(--gridUnit) / 2);
 }
 
 #textbox {
-  width: calc(25 / 37 * var(--pagewidth));
-  line-height: 4vh;
-  padding-top: 5vh;
+  width: calc(25 / 37 * var(--pageWidth));
+  line-height: calc(var(--gridUnit));
+  padding-top: calc(5 / 4 * var(--gridUnit));
   font-family: "Radio Canada", sans-serif;
   color: #424e4d;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 156vh) {
+  #picturebox {
+    width: 100%;
+    padding: 0;
+  }
+
+  #pictureheadshot {
+    width: round(nearest, 50%, var(--gridUnit));
+    max-width: calc(0.35 * var(--pageHeight));
+    box-sizing: border-box;
+  }
+
+  #textbox {
+    width: 100%;
+    font-size: min(2.5rem, calc(2.5 / 4 * var(--gridUnit)));
+    padding-top: calc(11 / 8 * var(--gridUnit));
+  }
 }
