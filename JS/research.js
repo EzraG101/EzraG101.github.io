@@ -26,7 +26,7 @@ const paper4 = {
   title: "The Rectifiability Theorem for Varifolds",
   arxiv: "[PDF]",
   link: "papers/20250512.pdf",
-  description: "In this paper, we introduce varifolds and prove the first rectifiability theorem.",
+  description: "In this paper, we introduce rectifiable and general varifolds. Then, we prove the first rectifiability theorem, which connects both notions.",
 };
 
 const paper3 = {
@@ -46,8 +46,8 @@ const paper2 = {
 const paper1 = {
   title:
     "Simple Eigenvalues and Non-vanishing Eigenvectors of the Anderson Model",
-  arxiv: "arXiv:2512.00278",
-  link: "http://arxiv.org/abs/2512.00278",
+  arxiv: "Analysis and Mathematical Physics",
+  link: "https://link.springer.com/article/10.1007/s13324-026-01280-w?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20261113&utm_content=10.1007/s13324-026-01280-w",
   description: "In this paper, we study spectral conditions on a randomly defined matrix on a graph, \\(G\\). Specifically, we construct a random matrix by adding a diagonal matrix,\\(V\\), with random i.i.d entries to the Laplacian matrix, \\(\\Delta\\), of the graph. We call a \\(V\\) good if \\(\\Delta+tV\\) has simple eigenvalues and non-vanishing eigenvectors for all but finitely many \\(t\\in\\mathbb R\\). Otherwise, we call \\(V\\) bad. We prove results on \\(\\mathbb P(V\\) is good\\()\\) for different probability distributions.",
 };
 
